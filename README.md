@@ -1,4 +1,4 @@
 # TIVS Flutter SDK
 
-Hosted source: https://tangeai.github.io/tivs-sdk-flutter-hosted
-Complete packages are release assets.
+Package source: https://tangeai.github.io/tivs-sdk-flutter-hosted
+Complete packages are published as release assets.
