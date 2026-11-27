@@ -1,13 +1,13 @@
 {
   "name": "rapid_kit",
   "latest": {
-    "version": "1.8.2-alpha.2",
-    "archive_url": "https://icam-media-cloud-user-public.oss-cn-shenzhen.aliyuncs.com/RAPID_RELEASE/sdk/flutter/v1.8.2-alpha.2/rapid_kit-1.8.2-alpha.2.tar.gz",
-    "archive_sha256": "b7a6014e1b27800662971d56b9efc9ee15cc70a8d567b52c7cb1601f84fd2b80",
+    "version": "1.9.0-alpha.3",
+    "archive_url": "https://icam-media-cloud-user-public.oss-cn-shenzhen.aliyuncs.com/RAPID_RELEASE/sdk/flutter/v1.9.0-alpha.3/rapid_kit-1.9.0-alpha.3.tar.gz",
+    "archive_sha256": "8d6680fd494f941639e004cea1b4e1fce1999cea8dec0c771f90eb8aeda084ca",
     "pubspec": {
       "name": "rapid_kit",
       "description": "RAPID = Real-time Audio-visual Platform for IoT Device",
-      "version": "1.8.2-alpha.2",
+      "version": "1.9.0-alpha.3",
       "homepage": "https://tange.ai/",
       "environment": {
         "sdk": ">=2.19.6 <4.0.0",
@@ -558,6 +558,67 @@
         "name": "rapid_kit",
         "description": "RAPID = Real-time Audio-visual Platform for IoT Device",
         "version": "1.8.2-alpha.2",
+        "homepage": "https://tange.ai/",
+        "environment": {
+          "sdk": ">=2.19.6 <4.0.0",
+          "flutter": ">=2.5.0"
+        },
+        "dependencies": {
+          "flutter": {
+            "sdk": "flutter"
+          },
+          "flutter_web_plugins": {
+            "sdk": "flutter"
+          },
+          "plugin_platform_interface": "^2.0.2",
+          "async": "^2.5.0",
+          "ffi": "^2.0.2",
+          "path": "^1.8.2",
+          "meta": "^1.8.0",
+          "qr_flutter": "^4.1.0"
+        },
+        "dev_dependencies": {
+          "flutter_lints": "^2.0.0",
+          "flutter_test": {
+            "sdk": "flutter"
+          }
+        },
+        "flutter": {
+          "plugin": {
+            "platforms": {
+              "android": {
+                "package": "com.tange.ai.rapid_kit",
+                "pluginClass": "RapidKitPlugin"
+              },
+              "ios": {
+                "pluginClass": "RapidKitPlugin"
+              },
+              "macos": {
+                "pluginClass": "RapidKitPlugin"
+              },
+              "windows": {
+                "pluginClass": "RapidKitPluginCApi"
+              },
+              "linux": {
+                "pluginClass": "RapidKitPlugin"
+              },
+              "ohos": {
+                "package": "com.tange.ai.rapid_kit",
+                "pluginClass": "RapidKitPlugin"
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "version": "1.9.0-alpha.3",
+      "archive_url": "https://icam-media-cloud-user-public.oss-cn-shenzhen.aliyuncs.com/RAPID_RELEASE/sdk/flutter/v1.9.0-alpha.3/rapid_kit-1.9.0-alpha.3.tar.gz",
+      "archive_sha256": "8d6680fd494f941639e004cea1b4e1fce1999cea8dec0c771f90eb8aeda084ca",
+      "pubspec": {
+        "name": "rapid_kit",
+        "description": "RAPID = Real-time Audio-visual Platform for IoT Device",
+        "version": "1.9.0-alpha.3",
         "homepage": "https://tange.ai/",
         "environment": {
           "sdk": ">=2.19.6 <4.0.0",
